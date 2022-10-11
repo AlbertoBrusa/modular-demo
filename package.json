@@ -1,0 +1,60 @@
+{
+  "name": "modular-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AlbertoBrusa/modular-demo.git",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "modular": {
+    "type": "root"
+  },
+  "scripts": {
+    "start": "modular start",
+    "build": "modular build",
+    "test": "modular test",
+    "lint": "eslint . --ext .js,.ts,.tsx",
+    "prettier": "prettier --write ."
+  },
+  "eslintConfig": {
+    "extends": "modular-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 80,
+    "proseWrap": "always"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^8.19.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.1.2",
+    "@types/node": "^18.8.4",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "eslint-config-modular-app": "^3.0.1",
+    "modular-scripts": "^3.3.2",
+    "modular-template-app": "^1.1.0",
+    "modular-template-esm-view": "^1.0.0",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": ">=4.2.1 <4.5.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "demo-view",
+  "private": false,
+  "modular": {
+    "type": "esm-view"
+  },
+  "version": "1.0.0"
+}
