@@ -1,14 +1,12 @@
 import * as React from 'react';
-import EsmView from '../../demo-view/src';
 import logo from './logo.svg';
 import './App.css';
 
 function App(): JSX.Element {
   return (
-    //import demo view somewhere here
     <div className="App">
       <header className="App-header">
-        
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>

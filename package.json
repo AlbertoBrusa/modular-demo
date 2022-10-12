@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/AlbertoBrusa/modular-demo.git",
+  "author": "Alberto Brusa <alberto.brusa@live.com>",
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -12,7 +13,7 @@
     "type": "root"
   },
   "scripts": {
-    "start": "modular start",
+    "start": "EXTERNAL_CDN_TEMPLATE='https://esm.sh/[name]@[resolution]' modular start",
     "build": "modular build",
     "test": "modular test",
     "lint": "eslint . --ext .js,.ts,.tsx",
@@ -43,7 +44,7 @@
     "@testing-library/dom": "^8.19.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
+    "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^29.1.2",
     "@types/node": "^18.8.4",
     "@types/react": "^18.0.21",
