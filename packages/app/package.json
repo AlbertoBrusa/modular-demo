@@ -4,5 +4,13 @@
   "modular": {
     "type": "app"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "18.0.2",
+    "react-dom": "18.0.2",
+    "@jpmorganchase/uitk-core": "latest",
+    "@jpmorganchase/uitk-icons": "latest",
+    "@jpmorganchase/uitk-lab": "latest",
+    "@jpmorganchase/uitk-theme": "latest"
+  }
 }

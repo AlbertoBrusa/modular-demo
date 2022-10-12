@@ -67,8 +67,10 @@ export default function EsmView(): JSX.Element {
         {tabs.map((label, idx) => (
           <div
             aria-hidden={selectedTab !== idx}
+            hidden={selectedTab !== idx}
             key={idx}
             style={{ borderBottom: `solid 10px ${colours[idx]}` }}
+            
           />
         ))}
       </ToolkitProvider>
