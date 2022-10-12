@@ -6,11 +6,15 @@
   },
   "version": "1.0.0",
   "dependencies": {
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "@jpmorganchase/uitk-core": "latest",
     "@jpmorganchase/uitk-icons": "latest",
     "@jpmorganchase/uitk-lab": "latest",
     "@jpmorganchase/uitk-theme": "latest"
+  },
+  "resolutions": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
