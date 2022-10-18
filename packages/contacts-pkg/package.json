@@ -1,0 +1,12 @@
+{
+  "name": "contacts-pkg",
+  "private": false,
+  "modular": {
+    "type": "package"
+  },
+  "main": "./src/index.ts",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "17.0.2"
+  }
+}
