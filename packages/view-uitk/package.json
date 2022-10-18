@@ -6,7 +6,13 @@
   },
   "main": "./src/index.tsx",
   "version": "1.0.0",
+  "resolutions": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
   "dependencies": {
+    "contacts-pkg": "1.0.0",
+    "counter-pkg": "1.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-hook-form": "^7.37.0",
