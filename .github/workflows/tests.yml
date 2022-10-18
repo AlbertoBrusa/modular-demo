@@ -23,4 +23,4 @@ jobs:
       - name: Install dependencies
         run: yarn
       - name: Run tests on changes
-        run: yarn modular
+        run: yarn modular test --changed --compareBranch main --ancestors
