@@ -25,11 +25,7 @@ jobs:
       - name: Set up Git for tests
         run:
           git fetch origin ${{ github.event.pull_request.head.ref }}:${{
-          github.event.pull_request.head.ref }} && git fetch origin ${{
-          github.event.pull_request.head.ref }}:${{
-          github.event.pull_request.head.ref }} && git fetch origin ${{
-          github.event.pull_request.head.ref }}:${{
-          github.event.pull_request.head.ref }}
+          github.event.pull_request.head.ref }} && git checkout ${{ github.event.pull_request.head.ref }} && git fetch origin ${{ github.event.pull_request.base.ref }}:${{ github.event.pull_request.base.ref }}
       - name: Run tests on changes
         run:
           yarn modular test --changed --compareBranch ${{
