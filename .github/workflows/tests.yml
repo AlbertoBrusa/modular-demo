@@ -23,8 +23,14 @@ jobs:
       - name: Install dependencies
         run: yarn
       - name: Set up Git for tests
-        run: git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
-        run: git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
-        run: git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
+        run:
+          git fetch origin ${{ github.event.pull_request.head.ref }}:${{
+          github.event.pull_request.head.ref }} && git fetch origin ${{
+          github.event.pull_request.head.ref }}:${{
+          github.event.pull_request.head.ref }} && git fetch origin ${{
+          github.event.pull_request.head.ref }}:${{
+          github.event.pull_request.head.ref }}
       - name: Run tests on changes
-        run: yarn modular test --changed --compareBranch ${{ github.event.pull_request.base.ref }} --ancestors
+        run:
+          yarn modular test --changed --compareBranch ${{
+          github.event.pull_request.base.ref }} --ancestors
