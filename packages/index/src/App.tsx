@@ -1,5 +1,6 @@
 import * as React from 'react';
 import logo from './assets/modular-hero.svg';
+
 import { ToolkitProvider, Switch, Panel, Card } from '@jpmorganchase/uitk-core';
 import {
   AppHeader,
@@ -55,7 +56,7 @@ export default function App(): JSX.Element {
           data-collapsible="instant"
           data-index={0}
           data-priority={1}
-          src='https://raw.githubusercontent.com/jpmorganchase/modular/main/docs/img/modular-hero.svg'
+          src="https://raw.githubusercontent.com/jpmorganchase/modular/main/docs/img/modular-hero.svg"
           appTitle="Modular Demo"
         />
         <Tabstrip
