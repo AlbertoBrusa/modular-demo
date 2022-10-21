@@ -6,10 +6,12 @@
   },
   "version": "1.0.0",
   "dependencies": {
-    "contacts-pkg": "1.0.0",
-    "counter-pkg": "1.0.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "@jpmorganchase/uitk-core": "latest"
+    "contacts-pkg": "*",
+    "counter-pkg": "*",
+    "view-uitk": "*",
+    "view-fluent": "*",
+    "@jpmorganchase/uitk-core": "latest",
+    "@jpmorganchase/uitk-theme": "latest",
+    "@jpmorganchase/uitk-lab": "latest"
   }
 }

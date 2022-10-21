@@ -1,18 +1,15 @@
 {
-  "name": "view-uitk",
-  "private": false,
+  "name": "modular-template-uitk-app-fixed",
+  "private": true,
   "modular": {
-    "type": "view"
+    "type": "template",
+    "templateType": "app"
   },
-  "main": "./src/index.tsx",
-  "version": "1.0.0",
   "dependencies": {
-    "contacts-pkg": "*",
-    "counter-pkg": "*",
-    "react-hook-form": "^7.37.0",
     "@jpmorganchase/uitk-core": "latest",
     "@jpmorganchase/uitk-icons": "latest",
     "@jpmorganchase/uitk-lab": "latest",
     "@jpmorganchase/uitk-theme": "latest"
-  }
+  },
+  "version": "1.0.0"
 }
