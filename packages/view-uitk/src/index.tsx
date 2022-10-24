@@ -34,7 +34,6 @@ export default function ViewUitk({
   const onSubtract = useCallback(() => modifyCount(-1), [modifyCount]);
 
   const {
-    control,
     register,
     handleSubmit,
     reset,
